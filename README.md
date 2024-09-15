@@ -1,2 +1,12 @@
 # signoz-kubernetes-pulumi-module
-Pulumi Module to Deploy "Signoz on Kubernetes" w/ Planton Cloud
+
+Pulumi Module to Deploy [SigNoz](https://signoz.io/) on Kubernetes
+
+```shell
+pulumi stack select --stack <pulumi-org-name>/<pulumi-stack-name>
+```
+
+```shell
+export STACK_INPUT_FILE_PATH=<path-to-stack-input-yaml-file>
+pulumi up
+```
