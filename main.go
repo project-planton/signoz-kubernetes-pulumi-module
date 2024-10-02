@@ -1,7 +1,7 @@
 package main
 
 import (
-	signozkubernetesv1 "buf.build/gen/go/plantoncloud/project-planton/protocolbuffers/go/project/planton/apis/provider/kubernetes/signozkubernetes/v1"
+	signozkubernetesv1 "buf.build/gen/go/plantoncloud/project-planton/protocolbuffers/go/project/planton/provider/kubernetes/signozkubernetes/v1"
 	"github.com/pkg/errors"
 	"github.com/plantoncloud/pulumi-module-golang-commons/pkg/stackinput"
 	"github.com/plantoncloud/signoz-kubernetes-pulumi-module/pkg"
