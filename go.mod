@@ -11,7 +11,7 @@ require (
 	google.golang.org/grpc v1.65.0 // indirect
 )
 
-require github.com/project-planton/project-planton v0.0.19
+require github.com/project-planton/project-planton v0.0.23
 
 require (
 	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.35.1-20240920164238-5a7b106cbb87.1 // indirect
